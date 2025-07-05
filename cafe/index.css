@@ -1,0 +1,146 @@
+body {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Georgia', serif;
+  color: white;
+/* height: 100vh;   */
+  position: relative;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.4); /* dark transparent layer */
+  z-index: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.menusymbol {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.headingname h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.headingname p {
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.button button {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+}
+.button:hover{
+    box-shadow: 5px -5px 15px 5px  white;
+}
+
+.second-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.content li:hover{
+    cursor: pointer;
+    box-shadow:5px -5px 15px 5px  white ;
+}
+
+
+.third-nav{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.title h1{
+    letter-spacing: 5px;
+    color:white;
+    z-index: 1;
+    position: relative;
+}
+.fourth-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+/* .box {
+    display: flex;
+    justify-content: space-evenly;
+
+     
+} */
+ .box{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+/* 
+.box:hover{
+}
+    box-shadow: 5px 5px 15px 0px; */
+.box p{
+    padding: 10px 20px ;
+    position: relative;
+    color: white;
+    z-index: 1;
+    border: 2px solid;
+}
+.box p:hover{
+    box-shadow: 5px -5px 15px 5px  white ;
+}
+
+.fifth-nav{
+    display: flex;
+    justify-content: center;
+}
+.fifth-content{
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1; 
+}
+
+
+.sixth-nav{
+    display: flex;
+    justify-content: center;
+
+}
+
+#sidu{
+    height: 130px;
+    width: 30px;
+}
